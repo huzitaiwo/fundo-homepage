@@ -97,7 +97,15 @@ nav.container {
 .introduction__contents {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
 }
+
+/* .introduction__contents img {
+  position: absolute;
+  right: 0;
+  top: -150px;
+} */
 
 .content h1 {
   max-width: 300px;
