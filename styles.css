@@ -144,10 +144,17 @@ nav.container {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .icon img {
   width: 100%;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding-top: 10px;
 }
 
 .arrow {
