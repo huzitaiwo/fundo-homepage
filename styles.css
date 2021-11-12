@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 /* reset default box styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Gblobal styles */
@@ -52,13 +53,18 @@ h2 {
 } */
 
 .btn.dark {
-  background: #000;
+  background: #13192e;
   border: 1px solid transparent;
 }
 /* END____Gblobal styles */
 
 header {
-  background-color: rgb(23, 110, 160);
+  background: linear-gradient(
+    107.43deg,
+    #7087af 11.95%,
+    #99a9c8 99.99%,
+    rgba(112, 135, 175, 0) 100%
+  );
 }
 nav.container {
   min-height: 10vh;
@@ -79,7 +85,12 @@ nav.container {
 }
 
 .introduction {
-  background-color: rgb(23, 110, 160);
+  background: linear-gradient(
+    107.43deg,
+    #7087af 11.95%,
+    #99a9c8 99.99%,
+    rgba(112, 135, 175, 0) 100%
+  );
   color: #fff;
 }
 
@@ -112,7 +123,7 @@ nav.container {
 }
 
 .arrow {
-  background: #141414;
+  background: #13192e;
   width: 35px;
   height: 35px;
   padding: 5px;
@@ -165,7 +176,7 @@ section.get-in-touch {
 }
 
 footer {
-  background: rgb(224, 245, 248);
+  background: #f0f3fd;
 }
 
 footer h3 {
